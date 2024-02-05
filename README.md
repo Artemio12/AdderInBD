@@ -3,6 +3,10 @@ The app for creating sql commands with Windows Forms
 
 /*Place for link on .exe file*/
 
+Screen App (Not finished):
+
+![image](https://github.com/Artemio12/AdderInBWindowsForms/assets/59345054/1849ecb5-5875-448c-8337-87702a1814bd)
+
 At the moment, the application used for entering my One Piece screens into the database for Telegram bot (my next project) ;
 The app contains:
 1. Tab control (Insert), contains:
