@@ -1,7 +1,7 @@
 # AdderInBD
 The app for creating sql commands with Windows Forms
 
-/*Place for link on .exe file*/
+/* Place for link on .exe file */
 
 Screen App (Not finished):
 
