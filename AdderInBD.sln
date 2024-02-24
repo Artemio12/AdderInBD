@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		..\..\..\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\OnePieceScreens.mdf = ..\..\..\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\OnePieceScreens.mdf
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtLibrary.Sql", "..\ArtLibrary.SqlParams\ArtLibrary.Sql.csproj", "{22248EA9-981F-4ECE-B06B-F3437FC8B67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtLibrary.ControlLogic", "..\ArtLibrary.ControlLogic\ArtLibrary.ControlLogic.csproj", "{4D37B174-0B4F-482D-B1E6-AF1A8CBF114C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{AEA5191A-2CA6-40A1-9FF4-E962744D600E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEA5191A-2CA6-40A1-9FF4-E962744D600E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEA5191A-2CA6-40A1-9FF4-E962744D600E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22248EA9-981F-4ECE-B06B-F3437FC8B67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22248EA9-981F-4ECE-B06B-F3437FC8B67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22248EA9-981F-4ECE-B06B-F3437FC8B67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22248EA9-981F-4ECE-B06B-F3437FC8B67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D37B174-0B4F-482D-B1E6-AF1A8CBF114C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D37B174-0B4F-482D-B1E6-AF1A8CBF114C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D37B174-0B4F-482D-B1E6-AF1A8CBF114C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D37B174-0B4F-482D-B1E6-AF1A8CBF114C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
