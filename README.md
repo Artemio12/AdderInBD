@@ -5,7 +5,7 @@ The app for creating sql commands with Windows Forms
 
 Screen App (Not finished):
 
-![image](https://github.com/Artemio12/AdderInBWindowsForms/assets/59345054/1849ecb5-5875-448c-8337-87702a1814bd)
+![image](https://github.com/Artemio12/AdderInDB_WindowsForms/assets/59345054/51de513d-f93d-4416-baf0-d89f2306b44a)
 
 At the moment, the application used for entering my One Piece screens into the database for Telegram bot (my next project) ;
 The app contains:
