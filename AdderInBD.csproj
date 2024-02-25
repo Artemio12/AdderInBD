@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ArtLibrary.ControlLogic">
+      <HintPath>..\ArtLibrary.ControlLogic\bin\Debug\ArtLibrary.ControlLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="ArtLibrary.SqlParams">
+      <HintPath>..\ArtLibrary.SqlParams\bin\Debug\ArtLibrary.SqlParams.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -47,21 +53,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\ArtLibrary.ControlLogic\AdderItems.cs">
-      <Link>AdderItems.cs</Link>
-    </Compile>
-    <Compile Include="..\ArtLibrary.ControlLogic\bin\Debug\VisibilityInverter.cs">
-      <Link>VisibilityInverter.cs</Link>
-    </Compile>
-    <Compile Include="..\ArtLibrary.ControlLogic\BrowseButton.cs">
-      <Link>BrowseButton.cs</Link>
-    </Compile>
     <Compile Include="AdderInDB.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdderInDB.Designer.cs">
       <DependentUpon>AdderInDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="PictureWorker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdderInDB.resx">
